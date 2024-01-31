@@ -1,16 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project_1st/ipaddress.dart';
 import 'package:flutter_project_1st/log_sign_forgot/custom_confirm_password.dart';
 import 'package:flutter_project_1st/log_sign_forgot/custom_password_field.dart';
 import 'package:flutter_project_1st/log_sign_forgot/loginpage.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:http/http.dart' as http;
 
+// ignore: must_be_immutable
 class forgotPage3 extends StatelessWidget {
   TextEditingController passwordcontroller = TextEditingController();
   TextEditingController confirmcontroller = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String password = '';
   String confirmPassword = '';
+
+  forgotPage3({super.key, required this.email});
+  final String email;
   @override
   Widget build(BuildContext context) {
+    double containerWidth = MediaQuery.of(context).size.width;
+    //double containerHieght = MediaQuery.of(context).size.height
     // Size size = MediaQuery.of(context).size;
     return Scaffold(
         // resizeToAvoidBottomInset: false,
@@ -118,6 +127,9 @@ class forgotPage3 extends StatelessWidget {
                                       ),
                                       Container(
                                           height: 60,
+                                          width: kIsWeb
+                                              ? containerWidth * 0.4
+                                              : containerWidth * 0.39,
                                           margin: EdgeInsets.symmetric(
                                               horizontal: 50),
                                           decoration: BoxDecoration(
@@ -132,15 +144,12 @@ class forgotPage3 extends StatelessWidget {
                                                 // Check if both fields are not empty
                                                 if (_formKey.currentState!
                                                     .validate()) {
-                                                  // Form is valid, perform your login action here
-
-                                                  // Perform the login action
-                                                  // You can navigate to the next page or handle login logic here
-                                                  Navigator.pushReplacement(
-                                                      context,
-                                                      MaterialPageRoute(
-                                                          builder: (context) =>
-                                                              login()));
+                                                  changePassword(
+                                                      context: context,
+                                                      email: this.email,
+                                                      password:
+                                                          passwordcontroller
+                                                              .text);
                                                 }
                                               },
                                               child: Center(
@@ -161,5 +170,73 @@ class forgotPage3 extends StatelessWidget {
                                 )))),
                   ]),
             )));
+  }
+
+  Future<void> changePassword({
+    required String email,
+    required String password,
+    required BuildContext context,
+  }) async {
+    final ipAddress = await getLocalIPv4Address();
+    final url = Uri.parse('http://$ipAddress:3000/resetPassword');
+
+    try {
+      final response = await http.post(
+        url,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: {
+          'email': email,
+          'password': password,
+        },
+      );
+
+      if (response.statusCode == 200) {
+        // Data sent successfully
+        print('change successful');
+        showDialog(
+          context: context,
+          builder: (BuildContext context) {
+            return AlertDialog(
+              title: Text(
+                'Password Changed',
+                style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20),
+                textAlign: TextAlign.center,
+              ),
+              content: Text(
+                'Your password has been changed successfully.',
+                style: TextStyle(color: Colors.black, fontSize: 18),
+                textAlign: TextAlign.center,
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(context,
+                        MaterialPageRoute(builder: (context) => login()));
+                  },
+                  child: Text(
+                    'OK',
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 24),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            );
+          },
+        );
+      } else {
+        print('HTTP error: ${response.statusCode}');
+      }
+    } catch (error) {
+      // Handle network or other errors
+      print('Error: $error');
+    }
   }
 }

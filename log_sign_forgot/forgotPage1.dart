@@ -3,13 +3,19 @@ import 'package:flutter_project_1st/ipaddress.dart';
 import 'package:flutter_project_1st/log_sign_forgot/custom_email_field.dart';
 import 'package:flutter_project_1st/log_sign_forgot/forgotPage2.dart';
 import 'package:http/http.dart' as http;
+import 'package:flutter/foundation.dart' show kIsWeb;
 
+// ignore: must_be_immutable
 class forgotPage1 extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   TextEditingController passwordcontroller = TextEditingController();
   final TextEditingController _emailAddressController = TextEditingController();
+
+  forgotPage1({super.key});
   @override
   Widget build(BuildContext context) {
+    double containerWidth = MediaQuery.of(context).size.width;
+    //double containerHieght = MediaQuery.of(context).size.heig
     // Size size = MediaQuery.of(context).size;
     return Scaffold(
         //resizeToAvoidBottomInset: false,
@@ -82,6 +88,9 @@ class forgotPage1 extends StatelessWidget {
                                         height: 80,
                                       ),
                                       Container(
+                                        // width: kIsWeb
+                                        //     ? containerWidth * 0.4
+                                        //     : containerWidth * 0.8,
                                         child: Column(
                                           children: <Widget>[
                                             Center(
@@ -98,9 +107,14 @@ class forgotPage1 extends StatelessWidget {
                                             SizedBox(
                                               height: 40,
                                             ),
-                                            EmailAddressTextField(
-                                              controller:
-                                                  _emailAddressController,
+                                            Container(
+                                              width: kIsWeb
+                                                  ? containerWidth * 0.4
+                                                  : containerWidth * 0.8,
+                                              child: EmailAddressTextField(
+                                                controller:
+                                                    _emailAddressController,
+                                              ),
                                             ),
                                           ],
                                         ),
@@ -110,6 +124,9 @@ class forgotPage1 extends StatelessWidget {
                                       ),
                                       Container(
                                           height: 60,
+                                          width: kIsWeb
+                                              ? containerWidth * 0.39
+                                              : containerWidth * 0.85,
                                           margin: EdgeInsets.symmetric(
                                               horizontal: 50),
                                           decoration: BoxDecoration(
@@ -160,8 +177,7 @@ class forgotPage1 extends StatelessWidget {
   }) async {
     final ipAddress = await getLocalIPv4Address();
     //print("***********ipAddress:" + ipAddress);
-    final url = Uri.parse(
-        'http://$ipAddress:3000/sendVerificationCode'); // Replace with your login endpoint
+    final url = Uri.parse('http://$ipAddress:3000/sendVerificationCode');
     try {
       final response = await http.post(
         url,
@@ -175,8 +191,12 @@ class forgotPage1 extends StatelessWidget {
       if (response.statusCode == 200) {
         // Successful login, handle the response from the server
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => forgotPage2()));
-        print('Login successful');
+            context,
+            MaterialPageRoute(
+                builder: (context) => forgotPage2(
+                      email: email,
+                    )));
+        print('Forgot Password');
       } else if (response.statusCode == 401) {
         // Incorrect password
         print('Incorrect password');
