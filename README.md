@@ -107,9 +107,65 @@ https://drive.google.com/file/d/1HVT5NeTJohK2GpcnSP5W7-1evqCryIZ3/view?usp=drive
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/534446bb-94d5-4f9c-b060-171b2ed07c00.png">
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/880d5433-2e04-42c6-891d-cdc663a9e0e7.png">
 </li>
+  
  <li> Report an Item:<br>
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f0a0f046-98ef-4ec2-9b42-5ec6d833ee66.png">
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/fef6a7b9-406f-40bc-a18f-b578d7261b36.png">
 </li>
 
+</ul>
+<h2 align="left">Admin Side </h2>
+<ul>
+  <li> Admin Home Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/5d8cc0cb-ff28-4f59-a78a-359e8d3e28c5.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/ffff348e-697b-4a0b-8c9f-285a90f2ba7c.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/5e4f0206-ff8b-4e76-9157-a640712c5b06.png">
+</li>
+  <li> Admin Search Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/3ec28809-637e-4bca-9e23-ca1ca8f46ab0.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/73ab09b4-1f50-4838-9c5d-74cd2764b206.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/79e26ff3-db86-4ed9-a89e-cd78ab04ecf6.png">
+</li>
+  <li> Admin User Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/d4b82c82-6cc5-48bb-93e3-3cc1cfba121e.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/5db5a25b-7fe8-4abe-81bf-71e43f8b4855.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f049f3ac-d261-42fd-bd6b-2f2fd0c6d2e5.png">
+</li>
+  <li> Admin Offer Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/d4ee4f4f-4679-4d2e-a4e4-cfabb0ccac2a.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f5d14ff7-5f29-4aba-b412-bc528c40784f.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e3cfcece-5793-4556-84b7-f7fcbf02d8ee.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/81d9220e-ba88-4a60-858b-ac571682762c.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e3633bfa-c84c-498f-938c-e19f3069fcc7.png">
+</li>
+  <li> Admin Offers Deatils Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/9adbe1a0-7ab4-4ebb-9046-ec31ba68af07.png">
+<img  height="400px" src="hhttps://github.com/raghaadd/unitrade/assets/100478249/d2a1f3d6-96b3-467f-ae2c-56554f6e3f90.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e945d7a4-725f-43fc-8746-a4bd9a6f7d48.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/171a2edc-5b46-4944-aa30-836ae58c5a2e.png">
+</li>
+  <li> Admin Meals Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/3916a81e-a3b1-4fb6-93aa-699072082e6a.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/4ffe0b2d-2301-4f50-a9ab-2f29e7367ea4.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/3c2d0565-9759-4cd9-8bce-5558ce5aae24.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/b775db49-99f8-4a09-8e73-4f72d281b625.png">
+</li>
+  <li> Admin Items Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/a136ff7c-dce5-408a-875b-450312f08f48.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/645cb963-056d-42c5-93c5-efbc95e3fc24.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/ffe97ea2-13ce-4aea-8bb2-f7706464e507.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/98576178-0024-469e-bdc6-1a184bbd0370.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/6f8ab667-b6dd-45b5-bc67-9211da5c8545.png">
+</li>
+<li> Admin Rate Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/d5c363f4-4911-4baa-b3e4-1696d2b54a0b.png">
+</li>
+ <li> Admin Feedback Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e25c5bfa-02c3-472c-9b14-3be68aa8fd37.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/4ba8c865-7770-4876-a197-8fcb048ddedb.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/3c20a21b-a1cd-480b-8b55-79eb29a46c2b.png">
+</li>
+<li> Admin Chat Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/3c5395fa-a648-403e-8d14-ca65d8e83466.png">
+</li>
 </ul>
