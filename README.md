@@ -68,5 +68,48 @@ https://drive.google.com/file/d/1HVT5NeTJohK2GpcnSP5W7-1evqCryIZ3/view?usp=drive
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f16201e5-08f6-43d3-bc4c-52c0d7ba20a7.png">
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/519d507b-2f4e-4296-9c29-42abd7c0f8a2.png">
 </li>
+ <li> Payment Method:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/7f2ad8a7-8fdf-48e0-9ccb-2d5e98c449be.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/32bb23e5-6868-4e29-85a8-5e165729a418.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/4c4d7c4b-9266-4947-8d0b-5daea9f1ed5e.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/bfefe620-af13-496d-bb1c-45586925e967.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/c3402b39-6e7a-431b-8cda-777b9d42aaf8.png">
+</li>
+  <li> Notification and Review:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/8d0063db-3fe6-4668-ac88-8db39174d533.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/0a602c9b-211b-4375-aa4e-0bd131e82cc9.png">
+</li>
+  <li> My Reviews:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/756c6f95-d206-4b7e-9e77-767414672e92.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/44b9baac-df51-4d88-b092-373e2b59eb2d.png">
+</li>
+  <li> Offers:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e905a356-dae5-495c-989e-232aa7da98cb.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/bafb5edf-8c55-4d8d-9361-cd29575b4ee4.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/72f4043d-b927-445e-958a-c975ca6b0847.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/8a224f02-efaa-4207-a07a-b171212494f3.png">
+</li>
+ <li> Help Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/0a17f527-bf68-47f2-9b00-503083f00007.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/30b3fd05-5c94-4a7a-aae5-503b37d4dae4.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/339b13b4-9b8b-47ce-a8d9-3f30f5b56169.png">
+</li>
+ <li> Settings Page:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/60dbd008-e94c-410a-b47b-1b51825185ae.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/b84fefa1-b04b-4619-a7c9-dfaee3c056d0.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/0bad5ee1-dfff-4a69-94b1-872bc7e2de81.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/eb393366-2d0b-4b7f-ad25-8165f9be5411.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/1ca39355-c2b3-4393-b5a8-3bf0680cb16d.png">
+</li>
+ <li> Upload an item:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/0d72fa6e-164f-495f-8360-3acae6bc7804.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/03893029-6fae-4b2e-a3e6-006ad05e8be5.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/534446bb-94d5-4f9c-b060-171b2ed07c00.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/880d5433-2e04-42c6-891d-cdc663a9e0e7.png">
+</li>
+ <li> Report an Item:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f0a0f046-98ef-4ec2-9b42-5ec6d833ee66.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/fef6a7b9-406f-40bc-a18f-b578d7261b36.png">
+</li>
 
 </ul>
