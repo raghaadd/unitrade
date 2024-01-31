@@ -8,15 +8,19 @@ function handleaddPayment(req, res) {
     const {
     sellerId,
     purchaserId,
-    payDone
+    payDone,
+    itemId,
+    ismeal,
     } = req.body;
     const parsedsellerId = parseInt(sellerId, 10);
     const parsedpurchaserId=parseInt(purchaserId,10);
+    const parseditemId=parseInt(itemId,10);
     const parsedpay=parseInt(payDone,10);
-    const insertUserQuery = 'INSERT INTO payment (sellerId,purchaserId,payDone) VALUES (?, ?, ?)';
+    const parsedismeal=parseInt(ismeal,10);
+    const insertUserQuery = 'INSERT INTO payment (sellerId,purchaserId,payDone,itemId,ismeal) VALUES (?, ?, ?, ?,?)';
     connection.query(
       insertUserQuery,
-      [parsedsellerId, parsedpurchaserId,parsedpay],
+      [parsedsellerId, parsedpurchaserId,parsedpay,parseditemId,parsedismeal],
       (err, result) => {
         if (err) {
           console.error(err);
