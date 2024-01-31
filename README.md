@@ -16,5 +16,9 @@ https://drive.google.com/file/d/1HVT5NeTJohK2GpcnSP5W7-1evqCryIZ3/view?usp=drive
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/f1e3a89d-5cb5-4e89-8a9f-503878765b0d.png">
 <img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/7cf8fffd-0851-4325-9df1-148fdf95a7ac.png">
 </li>
-
-  </ul>
+<li> Login, Sign up, and Forgot password pages:<br>
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/669b08ae-f335-46e4-89ad-cfd7766433dd.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/e83951e8-1db8-49ac-be4b-9454601c75c4.png">
+<img  height="400px" src="https://github.com/raghaadd/unitrade/assets/100478249/42a08d38-a596-4984-837d-4ef889f1db0c.png">  
+</li>
+</ul>
