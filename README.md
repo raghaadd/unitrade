@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1HVT5NeTJohK2GpcnSP5W7-1evqCryIZ3/view?usp=drive
 <h2 align="left">Project Demo </h2> 
 <h2 align="left">User Side </h2>
 <ul>
-<li> Get Started pages:<img size=40px src="https://github.com/raghaadd/unitrade/assets/100478249/a765298d-1158-4f4a-8796-bfe738401f6c.png">
+<li> Get Started pages:<img hieght=40px src="https://github.com/raghaadd/unitrade/assets/100478249/a765298d-1158-4f4a-8796-bfe738401f6c.png">
 </li>
   <li>Login UI, Sign Up UI, and Reset password:<img src="https://user-images.githubusercontent.com/100478249/168148468-4934277b-ff03-4910-88b8-a3fcf367aea4.jpeg">
   <img src="https://user-images.githubusercontent.com/100478249/168148530-decdbdf7-5d52-4daf-90ab-2f691c6828d0.jpeg">
